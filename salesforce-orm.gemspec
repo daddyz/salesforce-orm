@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.8'
   s.require_paths = ['lib']
 
-  s.add_dependency 'activerecord', '~> 3'
+  s.add_dependency 'activerecord', '>= 3'
   s.add_dependency 'activerecord-nulldb-adapter', '~> 0'
   s.add_dependency 'restforce', '~> 2.5'
 
